@@ -1,0 +1,11 @@
+.newsletter{position:fixed;width:300px;right:-300px;top:45%;background-color:#fff;color:#000;z-index:1000;padding:15px;background-size: contain;}
+.newsletter > div{position:relative;background-color:#fff;padding:25px;}
+.newsletter h3{margin:0 0 25px;}
+.newsletter input{margin:0 0 10px;}
+.newsletter .validation-newsletter{color: green;display: none;letter-spacing: 1px;margin-top: 15px;text-transform: uppercase;}
+.newsletter .socialsnetworks{margin:15px 0 0;}
+.newsletter .socialsnetworks > * {margin:0 5px;}
+.newsletter .closeNewsletter, .newsletter .openNewsletter{padding: 10px;border-radius: 50% 0;position: absolute;top: -35px;left: -40px;cursor:pointer;}
+.newsletter .openNewsletter{left: -45px;}
+.newsletter .closeNewsletter{display:none;}
+.newsletter a{color:#000;}

@@ -1,0 +1,190 @@
+.backoffice .wpages > div[class*='col-'] {
+  padding: 15px;
+}
+
+.backoffice .wpages .wpage {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.backoffice .wpages .wpage.inactive {
+  opacity: 0.5;
+}
+
+.backoffice .wpage .wpageTitle {
+  padding: 50px 15px;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  color: #444444;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(0,0,0,0.1);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .4)), color-stop(.5, transparent), to(transparent));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, .4) 50%, transparent 50%, transparent);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, .4) 50%, transparent 50%, transparent);
+  background-image: linear-gradient(rgba(255, 255, 255, .4) 50%, transparent 50%, transparent);
+}
+
+.backoffice .wpage:hover .wpageTitle {
+  color: #A52A2A;
+}
+
+.backoffice .wpage .wpagesActions {
+  padding: 30px 15px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  text-align: right;
+}
+
+
+.backoffice .configPage .contentConfigResume, .backoffice .configPage .contentConfigPage, .backoffice .previewPage, .backoffice .contentCodePreviewPage, .backoffice .contentPopUpPage {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.backoffice .configPage .contentConfigResume, .backoffice .configPage .contentConfigPage, .backoffice .previewPage {
+  margin: 0 0 15px;
+}
+
+.backoffice .previewPage {
+  margin: 15px;
+}
+
+.backoffice .previewPage > h3 {
+  margin-bottom: 0 !important;
+}
+
+.backoffice .previewPage > h3 > span, .backoffice .previewPage h3 > a {
+  font-size: 12px;
+}
+
+.backoffice .contentConfigResume h3, .backoffice .contentConfigPage h3, .backoffice .previewPage h3, .backoffice .contentCodePreviewPage h3, .backoffice .contentPopUpPage h3 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  padding: 0 15px 15px;
+  margin: 15px 0 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.backoffice .contentConfigResume h3 {
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #eeeeee;
+  color: #222222;
+  margin: 0;
+  padding: 30px 15px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+
+.backoffice #containerPreviewPage {
+  position: relative;
+}
+
+.backoffice .previewPage > h3 > span, .backoffice .previewPage > h3 > a, .pinLang {
+  display: inline-block;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  margin: 0 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.backoffice .previewPage > h3 > span:hover, .backoffice .previewPage > h3 > a:hover, .pinLang:hover,
+.backoffice .previewPage > h3 > span.active, .backoffice .previewPage > h3 > a.active, .pinLang.active {
+  border: 1px solid #A52A2A;
+}
+
+.backoffice .previewPage > h3 > span:hover,
+.backoffice .previewPage > h3 > span.active,
+.backoffice .previewPage > h3 > a:hover,
+.backoffice .previewPage > h3 > a.active {
+  border: 1px solid #A52A2A;
+}
+
+.backoffice .codePreviewPage, .backoffice .popUpPage {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 2000;
+}
+
+textarea.code {
+  height: 500px;
+}
+
+.backoffice .noPreview {
+  margin: 10px 0 15px;
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.backoffice #preview label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.backoffice #preview form input[type='file'] {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.backoffice #preview form .nameGallery {
+  margin-bottom: 10px;
+}
+
+.backoffice #preview form .nameGallery:last-child {
+  margin-bottom: 0;
+}
+
+.backoffice .gallery > [class*="col-"] > img.inactive, .backoffice .blog > [class*="col-"] > .contentBlog.inactive {
+  opacity: 0.5;
+}
+
+.backoffice div > [class*="col-"] > .actions {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-align: center;
+  display: none;
+  z-index: 1000;
+}
+
+.backoffice div.blog > [class*="col-"] > .actions {
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.backoffice div > [class*="col-"]:hover > .actions {
+  display:block;
+}
+
+.backoffice .showPop {
+  padding: 4px 6px !important;
+}
+
+.backoffice .blogTextContent .contentBlog {
+  height: 150px;
+  padding: 5px;
+  overflow: auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,265 @@
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, .content-title > span {
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.backoffice {
+	color: #000000;
+	background-color: #F3F3F3;
+}
+
+.backoffice [class*='col-'] {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+.backoffice .btn-general{
+	font-size: 16px;
+	letter-spacing: 4px;
+	padding: 10px 15px;
+	color: #FFFFFF !important;
+	background-color: #A52A2A !important;
+  border-radius: 4px;
+}
+
+.backoffice header{
+	position:relative;
+	z-index:1000;
+	padding:15px 0 10px;
+  background-color: #ffffff;
+}
+
+.backoffice header .content-title{position:relative;text-decoration:none;text-transform: uppercase;letter-spacing: 5px;outline:none;text-align: center;}
+.backoffice header .content-title a{color:#A52A2A;}
+
+.backoffice header ul.nav.backoffice {
+  display: none;
+}
+
+.backoffice header ul{
+	list-style:none;
+  font-size: 16px;
+}
+
+header#mainNavbar, .menuResponsive {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.backoffice header ul li {
+	display:inline-block;
+	padding:0 15px;
+}
+
+.backoffice header ul li a{
+	text-decoration:none;
+	letter-spacing:1px;
+  text-transform: uppercase;
+}
+
+.backoffice .sociallink{padding: 0px 5px;}
+
+
+.backoffice .mainMenu, .contentLang{padding:0 15px;}
+
+.backoffice .mainLang{cursor: pointer;}
+.backoffice .mainLang > span{font-size: 12px;}
+.backoffice .menuLangues{position: absolute; width: 80px; background: #fff;border: 1px solid #ccc;text-align: left; padding:5px 0; margin:5px 0 0; display: none;}
+.backoffice .menuLangues ul{padding: 0;margin: 0;}
+.backoffice .menuLangues ul li{margin: 1px 0;font-size: 12px;}
+.backoffice .menuLangues ul li a{color:#000 !important;}
+
+.backoffice .buttonMenuResponsive{cursor:pointer;}
+
+.backoffice .menuLanguesResponsive{border-top: 2px solid #fff;border-bottom: 1px solid #fff;}
+
+.backoffice .menuResponsive ul{padding: 0;}
+.backoffice .menuResponsive ul li{display:block;margin: 15px 5px;}
+
+.backoffice .contentMenuResponsive{position:relative;margin-top:30px;z-index:100;display:none;}
+
+.backoffice .contentMenuResponsive .input-group-addon{
+	border: 0;
+	border-radius: 0;
+}
+
+.backoffice section{
+}
+
+.backoffice aside{
+	height:100%
+}
+
+.backoffice aside .logo-header{
+	opacity:0.4;
+	transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+}
+
+.backoffice aside .logo-header:hover{
+	opacity:1;
+}
+
+.backoffice section > div > .container {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.backoffice section .content-title {
+  display: none;
+}
+
+.backoffice > section > footer {
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+position:relative;
+padding:0 0 50px;
+color: #FFFFFF;
+background-color: #222222;
+}
+.backoffice > section > footer {
+background-attachment: fixed;
+position: relative;
+line-height: 20px;
+font-size: 12px;
+}
+.backoffice > section > footer nav {
+float: left !important;
+}
+.backoffice > section > footer nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+.backoffice > section > footer nav > ul li:first-child {
+margin-left: 0;
+}
+.backoffice > section > footer nav ul li {
+display: inline-block;
+padding: 10px 15px;
+margin: 15px 3px;
+line-height: 20px;
+text-align: center;
+}
+.backoffice > section > footer nav ul a:not(.btn) {
+color: #ffffff;
+display: block;
+margin-bottom: 3px;
+}
+.backoffice > section > footer .copyright {
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 14px;
+  white-space: nowrap;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+  float: right !important;
+}
+
+.backoffice input, textarea, select{
+	padding: 8px;
+	display: block;
+	border: 1px solid #ccc!important;
+	width: 100%;
+	resize:none;
+	color:#222;
+}
+
+.backoffice .error{color:red;}
+.backoffice label.error{font-size:9px;display:block;margin-bottom:5px;text-transform:uppercase;letter-spacing:1px;}
+
+.backoffice .developper{font-size:9px;position:absolute;bottom:5px;right:10px;}
+
+.backoffice .lightbox{display:none;position:fixed;top:0;overflow:auto;left:0;width:100%;height:100%;z-index:2000;}
+.backoffice .lightbox h2{margin-bottom:50px;}
+.backoffice .lightbox .close-lightbox{margin:10px 0 50px;font-size:16px;cursor:pointer;}
+.backoffice .lightbox .content-lightbox{margin:25px 0 50px;font-size:16px;}
+
+.backoffice .titre_module{border-radius:15px 15px 40px 40px;}
+.backoffice .titre{letter-spacing:1px;}
+
+.backoffice .gallery > [class*="col-"] { position: relative; height: 250px; overflow: hidden; cursor: pointer;}
+
+.backoffice div.blog > [class*="col-"] > .contentBlog {
+  height: 500px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.alert-failed {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert {
+  display: none;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.backoffice div.blog > [class*="col-"] > .contentBlog > h2,
+.backoffice div.blog > [class*="col-"] > .contentBlog > div { padding: 10px; }
+.backoffice div.blog > [class*="col-"] > .contentBlog > h2 { letter-spacing: 1px; border-top: 2px solid #A52A2A; border-bottom: 1px solid #cccccc; }
+.backoffice div.blog > [class*="col-"] > .contentBlog > img { padding: 0; }
+
+/***/
+
+/***/
+
+
+@media (max-width: 768px) {
+.backoffice .contentMenuResponsive{display:none;}
+.backoffice .titre{padding: 10px;}
+.backoffice .titre_module, .backoffice [class*='bgimg'] > div > span{letter-spacing: 5px;font-size: 24px;padding: 15px 15px 20px;}
+.backoffice header .content-logo,.backoffice header .content-logo a{padding:0;}
+.backoffice .lightbox{padding:0 50px;}
+}
+@media (min-width: 768px) {
+.backoffice .container{width:750px}
+.backoffice .contentMenuResponsive{display:none;}
+.backoffice .titre{padding: 10px;}
+.backoffice .titre_module, .backoffice [class*='bgimg'] > div > span{letter-spacing: 5px;font-size: 24px;padding: 15px 15px 20px;}
+.backoffice header .content-logo,.backoffice header .content-logo a{padding:0;}
+.backoffice .lightbox{padding:0 50px;}
+}
+@media (min-width: 992px) {
+.backoffice .container{width:970px}
+}
+@media (min-width: 1200px) {
+.backoffice .container{width:1170px}
+.backoffice .contentMenuResponsive{display:none!important;}
+.backoffice .titre{padding: 10px 25px 25px; }
+.backoffice .titre_module, .backoffice [class*='bgimg'] > div > span{letter-spacing: 10px;font-size: 36px;padding: 20px 25px 25px;}
+.backoffice header .content-logo{padding:0 15px;}
+.backoffice header .content-logo a{} /***/
+}
+@media (min-width: 1500px) {
+./*container{width:1440px}*/
+}

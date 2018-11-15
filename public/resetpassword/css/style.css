@@ -1,0 +1,64 @@
+.backoffice > header {
+  display: none !important;
+}
+
+.backoffice > section {
+  width: 100% !important;
+  background-color: #ffffff !important;
+}
+
+.backoffice .content-resetpassword {
+  padding-top: 25px;
+}
+
+.backoffice .content-resetpassword h1 {
+  font-size: 40px;
+  display: inline-block;
+  color: #333333;
+}
+
+.backoffice .content-resetpassword .bar {
+  border-bottom: 10px solid #333333;
+  margin-bottom: 30px;
+  width: 10%;
+}
+
+.backoffice .content-resetpassword h1 + .bar + p {
+  font-size: 16px;
+}
+
+.backoffice > section .content-title {
+  background-image: url('../img/background.jpg');
+  background-position: top;
+}
+
+.backoffice > section .content-title > span {
+  color: transparent !important;
+}
+
+.backoffice > section > footer {
+  background-image: url('../img/background.jpg');
+  background-position: bottom;
+}
+
+.backoffice form .form-pin {
+  height: 40px !important;
+  padding: 10px !important;
+}
+
+.backoffice form .form-pin + .form-control {
+  height: 40px !important;
+  width: calc(100% - 40px) !important;
+}
+
+.backoffice .btn-primary {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px !important;
+  background-color: #A52A2A !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+}

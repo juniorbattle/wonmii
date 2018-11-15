@@ -1,0 +1,201 @@
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, .content-title > span {
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.frontoffice {
+	color: #000000;
+	background-color: #F3F3F3;
+}
+
+.frontoffice [class*='col-'] {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+.frontoffice .btn-general{
+	font-size: 16px;
+	letter-spacing: 4px;
+	padding: 10px 15px;
+	color: #FFFFFF !important;
+	background-color: #A52A2A !important;
+  border-radius: 4px;
+}
+
+.frontoffice header{
+	position:relative;
+	z-index:1000;
+	padding:15px 0 10px;
+  background-color: #ffffff;
+}
+
+.frontoffice header ul{
+	list-style:none;
+  font-size: 16px;
+}
+
+header#mainNavbar, .menuResponsive {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.frontoffice header ul li {
+	display:inline-block;
+	padding:0 15px;
+}
+
+.frontoffice header ul li a{
+	text-decoration:none;
+	letter-spacing:1px;
+  text-transform: uppercase;
+}
+
+.frontoffice .sociallink{padding: 0px 5px;}
+
+.frontoffice header .content-logo{position:relative;text-decoration:none;text-transform: uppercase;letter-spacing: 5px;outline:none;}
+.frontoffice header .content-logo a{color:#A52A2A;}
+
+
+.frontoffice .mainMenu, .contentLang{padding:0 15px;}
+
+.frontoffice .mainLang{cursor: pointer;}
+.frontoffice .mainLang > span{font-size: 12px;}
+.frontoffice .menuLangues{position: absolute; width: 80px; background: #fff;border: 1px solid #ccc;text-align: left; padding:5px 0; margin:5px 0 0; display: none;}
+.frontoffice .menuLangues ul{padding: 0;margin: 0;}
+.frontoffice .menuLangues ul li{margin: 1px 0;font-size: 12px;}
+.frontoffice .menuLangues ul li a{color:#000 !important;}
+
+.frontoffice .buttonMenuResponsive{cursor:pointer;}
+
+.frontoffice .menuLanguesResponsive{border-top: 2px solid #fff;border-bottom: 1px solid #fff;}
+
+.frontoffice .menuResponsive ul{padding: 0;}
+.frontoffice .menuResponsive ul li{display:block;margin: 15px 5px;}
+
+.frontoffice .contentMenuResponsive{position:relative;margin-top:30px;z-index:100;display:none;}
+
+.frontoffice .contentMenuResponsive .input-group-addon{
+	border: 0;
+	border-radius: 0;
+}
+
+.frontoffice section{
+}
+
+.frontoffice aside{
+	height:100%
+}
+
+.frontoffice aside .logo-header{
+	opacity:0.4;
+	transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+}
+
+.frontoffice aside .logo-header:hover{
+	opacity:1;
+}
+
+.frontoffice section > div > .container {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.frontoffice footer{
+	position:relative;
+	padding:25px 0 100px;
+	color: #FFFFFF;
+	background-color: #222222;
+	/*z-index:100;*/
+}
+
+.frontoffice footer h4 {font-size:16px;letter-spacing:1px;margin-bottom:20px;}
+
+.frontoffice input, textarea, select{
+	padding: 8px;
+	display: block;
+	border: 1px solid #ccc!important;
+	width: 100%;
+	resize:none;
+	color:#222;
+}
+
+.frontoffice .error{color:red;}
+.frontoffice label.error{font-size:9px;display:block;margin-bottom:5px;text-transform:uppercase;letter-spacing:1px;}
+
+.frontoffice .developper{font-size:9px;position:absolute;bottom:5px;right:10px;}
+
+.frontoffice .lightbox{display:none;position:fixed;top:0;overflow:auto;left:0;width:100%;height:100%;z-index:2000;}
+.frontoffice .lightbox h2{margin-bottom:50px;}
+.frontoffice .lightbox .close-lightbox{margin:10px 0 50px;font-size:16px;cursor:pointer;}
+.frontoffice .lightbox .content-lightbox{margin:25px 0 50px;font-size:16px;}
+
+.frontoffice .titre_module{border-radius:15px 15px 40px 40px;}
+.frontoffice .titre{letter-spacing:1px;}
+
+.frontoffice .gallery > [class*="col-"] { position: relative; height: 250px; overflow: hidden; cursor: pointer;}
+
+.frontoffice div.blog > [class*="col-"] > .contentBlog {
+  height: 500px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.frontoffice div.blog > [class*="col-"] > .contentBlog > h2,
+.frontoffice div.blog > [class*="col-"] > .contentBlog > div { padding: 10px; }
+.frontoffice div.blog > [class*="col-"] > .contentBlog > h2 { letter-spacing: 1px; border-top: 2px solid #A52A2A; border-bottom: 1px solid #cccccc; }
+.frontoffice div.blog > [class*="col-"] > .contentBlog > img { padding: 0; }
+
+/***/
+
+/***/
+
+
+@media (max-width: 768px) {
+.frontoffice .contentMenuResponsive{display:none;}
+.frontoffice .titre{padding: 10px;}
+.frontoffice .titre_module, .frontoffice [class*='bgimg'] > div > span{letter-spacing: 5px;font-size: 24px;padding: 15px 15px 20px;}
+.frontoffice header .content-logo,.frontoffice header .content-logo a{padding:0;}
+.frontoffice .lightbox{padding:0 50px;}
+}
+@media (min-width: 768px) {
+.frontoffice .container{width:750px}
+.frontoffice .contentMenuResponsive{display:none;}
+.frontoffice .titre{padding: 10px;}
+.frontoffice .titre_module, .frontoffice [class*='bgimg'] > div > span{letter-spacing: 5px;font-size: 24px;padding: 15px 15px 20px;}
+.frontoffice header .content-logo,.frontoffice header .content-logo a{padding:0;}
+.frontoffice .lightbox{padding:0 50px;}
+}
+@media (min-width: 992px) {
+.frontoffice .container{width:970px}
+}
+@media (min-width: 1200px) {
+.frontoffice .container{width:1170px}
+.frontoffice .contentMenuResponsive{display:none!important;}
+.frontoffice .titre{padding: 10px 25px 25px; }
+.frontoffice .titre_module, .frontoffice [class*='bgimg'] > div > span{letter-spacing: 10px;font-size: 36px;padding: 20px 25px 25px;}
+.frontoffice header .content-logo{padding:0 15px;}
+.frontoffice header .content-logo a{} /***/
+}
+@media (min-width: 1500px) {
+./*container{width:1440px}*/
+}

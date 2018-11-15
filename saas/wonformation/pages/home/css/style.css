@@ -1,0 +1,177 @@
+.frontoffice #home {text-align:center;background-color:#ffffff;color:#000;padding:200px 0;}
+.frontoffice #home > .titre > h2{ font-size:45px; letter-spacing: 1px; }
+#home > .titre > div{ font-size:14px; letter-spacing: 1px; }
+
+.frontoffice #formation {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  float: left;
+  width: 100%;
+}
+
+/*
+#formation h1{
+  margin-bottom: 50px;
+  letter-spacing: 8px;
+}
+*/
+
+@media screen and (max-width: 768px) {
+  .frontoffice #formation {
+    margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frontoffice #formation {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+.frontoffice #formation .formation-item {
+  float: left;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .frontoffice #formation .formation-item {
+    display: block;
+  }
+}
+.frontoffice #formation .formation-item .formation-description,
+.frontoffice #formation .formation-item .formation-figure {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .frontoffice #formation .formation-item .formation-description,
+  .frontoffice #formation .formation-item .formation-figure {
+    display: block;
+    width: 100%;
+  }
+}
+.frontoffice #formation .formation-item .formation-figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .frontoffice #formation .formation-item .formation-figure {
+    height: 400px;
+  }
+}
+.frontoffice #formation .formation-item .formation-description {
+  background: #A52A2A;
+  color: #FFFFFF;
+  padding: 5em;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+
+.frontoffice #formation .tutorials.formation-item .formation-description {
+  padding: 4em;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.frontoffice #formation .formation-item .formation-description span {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-size:12px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.frontoffice #formation .formation-item .formation-description h2, #formation .formation-item .formation-description h3 {
+  letter-spacing: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  .frontoffice #formation .formation-item .formation-description {
+    padding: 2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .frontoffice #formation .formation-item .formation-description {
+    padding: 1em;
+  }
+}
+.frontoffice #formation .formation-item .formation-description h2 {
+  font-family: "Roboto Slab", arial, sans-serif;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 300;
+}
+.frontoffice #formation .formation-item.img-right .formation-figure {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+}
+.frontoffice #formation .formation-item .formation-figure.main {
+  background-image:url('http://localhost/wonformation/public/home/img/fbackground.jpg');
+}
+.frontoffice #formation .formation-item .formation-figure {
+  background-image:url('http://localhost/wonformation/public/home/img/fdefault.jpg');
+}
+@media screen and (max-width: 768px) {
+  .frontoffice #formation .formation-item.img-right .formation-figure {
+    position: relative;
+    top: auto;
+    bototm: auto;
+    height: 400px;
+  }
+}
+
+.frontoffice #expertises {
+  padding: 7em 0;
+}
+
+@media screen and (max-width: 768px) {
+  .frontoffice #expertises {
+    padding: 4em 0;
+  }
+}
+.frontoffice #expertises .expertise {
+  margin-bottom: 0px;
+  color: white;
+  background-color: black;
+  border: 2px solid #171717;
+  padding: 45px;
+}
+
+.frontoffice #expertises .expertise .desc {}
+
+.frontoffice #expertises .expertise .desc h3 {
+  margin-top: 0;
+  font-size: 24px;
+  letter-spacing: 8px;
+}
+
+.frontoffice .counter {
+  font-size: 50px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-family: "Sanchez", times, serif;
+  margin-bottom: .5em;
+}
+
+.frontoffice .counter-label {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Montserrat", arial, sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 2em;
+  display: block;
+}

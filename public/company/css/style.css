@@ -1,0 +1,81 @@
+.backoffice form {
+  margin: 0;
+}
+
+.backoffice .contentLogo, .backoffice .contentCompany {
+  padding: 25px 0;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #66615B;
+}
+
+.backoffice .contentLogo {
+  text-align: center;
+}
+
+.backoffice .contentLogo > form > label {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.backoffice .contentLogo .contentForm {
+  margin: 15px 0;
+  background-color: #eeeeee;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 25px 0;
+}
+
+.backoffice .contentLogo .contentForm img {
+  border-radius: 50%;
+}
+
+.backoffice .contentCompany h3 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0 0 15px;
+  margin: 0 0 30px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.backoffice .contentCompany form label {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.backoffice .contentCompany form .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.backoffice .contentCompany form .form-control:active, .backoffice .contentCompany form .form-control:focus {
+  border: 1px solid #A52A2A;
+}
+
+.backoffice .contentCompany form textarea {
+  height: 100px !important;
+  resize: none;
+}

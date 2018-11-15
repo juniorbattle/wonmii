@@ -1,0 +1,71 @@
+.backoffice form {
+  margin: 0;
+}
+
+.backoffice .contentStatusWebsite, .backoffice .contentLoginConnect, .backoffice .contentMultilingual {
+  padding: 25px 0;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #66615B;
+  text-align: center;
+}
+
+.backoffice .contentStatusWebsite > form > label, .backoffice .contentLoginConnect > form > label, .backoffice .contentMultilingual > form > label {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.backoffice .contentForm {
+  margin: 15px 0;
+  background-color: #eeeeee;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 25px 0;
+}
+
+.backoffice form .contentForm > div {
+  text-align: left !important;
+}
+
+.backoffice form .contentForm label {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.backoffice form .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.backoffice form .form-control:active, .backoffice form .form-control:focus {
+  border: 1px solid #A52A2A;
+}
+
+.backoffice .contentMultilingual .contentForm .contentLangue {
+  display: inline-block;
+}
+
+.backoffice .contentMultilingual .contentForm a, .backoffice .contentMultilingual .contentForm span {
+  display: inline-block;
+}

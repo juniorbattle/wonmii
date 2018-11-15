@@ -1,0 +1,325 @@
+a {
+color: #337ab7;
+text-decoration: none;
+}
+hr {
+  color: rgba(0, 0, 0, 0.1);
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, .content-title > span {
+font-family: 'Muli', "Helvetica", Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0;
+padding: 0;
+}
+body.container {
+  min-height: 100vh;
+  position: relative;
+}
+body.container {
+  position: relative;
+  top: 0;
+  height: 100vh;
+}
+.backoffice > header, .backoffice > section {
+overflow: auto;
+max-height: 100%;
+height: 100%;
+-webkit-transition-property: top,bottom;
+transition-property: top,bottom;
+-webkit-transition-duration: .2s,.2s;
+transition-duration: .2s,.2s;
+-webkit-transition-timing-function: linear,linear;
+transition-timing-function: linear,linear;
+-webkit-overflow-scrolling: touch;
+}
+.backoffice > header{
+width: 260px;
+display: block;
+font-weight: 200;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+background-size: cover;
+background-position: center center;
+}
+.backoffice > section {
+background-color: #f4f3ef;
+position: relative;
+z-index: 2;
+float: right;
+width: calc(100% - 260px);
+min-height: 100%;
+}
+.backoffice .content-title {
+padding: 30px 0;
+}
+.backoffice .content-title > span{
+color: #5e5e5e;
+font-size: 18px;
+}
+.backoffice > header .content-title {
+text-align: center;
+letter-spacing: 2px;
+margin: 0 15px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.backoffice > header .content-title > span {
+text-transform: uppercase;
+}
+.backoffice .nav {
+margin-top: 20px;
+}
+.backoffice .nav {
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+.backoffice .nav > li {
+position: relative;
+display: block;
+}
+.backoffice > header .nav li:not(.active) > a {
+  color: #66615B;
+}
+.backoffice > header .nav li > a {
+margin: 10px 0px;
+padding-left: 25px;
+padding-right: 25px;
+opacity: .7;
+}
+.backoffice > header .nav li:last-child {
+margin-top: 50px;
+}
+.backoffice > header .nav a, .table > tbody > tr .td-actions .btn {
+-webkit-transition: all 150ms ease-in;
+-moz-transition: all 150ms ease-in;
+-o-transition: all 150ms ease-in;
+-ms-transition: all 150ms ease-in;
+transition: all 150ms ease-in;
+}
+.backoffice > header .nav > li > a {
+position: relative;
+display: block;
+padding: 10px 15px;
+}
+.backoffice > header .nav > li:hover > a, .backoffice > header .nav li.active > a {
+color: #A52A2A;
+opacity: 1;
+}
+.backoffice > header .nav i {
+font-size: 24px;
+float: left;
+margin-right: 15px;
+line-height: 30px;
+width: 30px;
+text-align: center;
+}
+.backoffice > header .nav p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.backoffice > section .content-title {
+padding: 30px 25px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.backoffice > section .content-title > span {
+margin-right: 2px;
+font-weight: bold;
+color: #777777;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+.backoffice > section .content-title > span:first-child::after{
+  content: ' · ';
+}
+.backoffice > section .content-main {
+min-height: 590px;
+padding: 30px 0;
+}
+.backoffice > section > footer {
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.backoffice > section > footer {
+background-attachment: fixed;
+position: relative;
+line-height: 20px;
+font-size: 12px;
+}
+.backoffice > section > footer nav {
+float: left !important;
+}
+.backoffice > section > footer nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+.backoffice > section > footer nav > ul li:first-child {
+margin-left: 0;
+}
+.backoffice > section > footer nav ul li {
+display: inline-block;
+padding: 10px 15px;
+margin: 15px 3px;
+line-height: 20px;
+text-align: center;
+}
+.backoffice > section > footer nav ul a:not(.btn) {
+color: #66615b;
+display: block;
+margin-bottom: 3px;
+}
+.backoffice > section > footer .copyright {
+  color: #66615b;
+  padding: 10px 15px;
+  font-size: 14px;
+  white-space: nowrap;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+  float: right !important;
+}
+.backoffice .btn {
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+  border:none;
+  padding: 5px 10px;
+  margin: 0 2px;
+}
+.backoffice .btn.btn-default
+{
+  background-color: #ffffff;
+  color:rgba(0,0,0,0.6);
+  border: 1px solid rgba(0,0,0,0.6);
+}
+.backoffice .btn.btn-default:hover, .backoffice .btn.btn-default.active {
+  color: #A52A2A;
+  border: 1px solid #A52A2A;
+}
+
+.backoffice .btn.btn-default.disabled, .backoffice .btn.btn-default.disabled:hover{
+  opacity: 0.4;
+  cursor: default;
+  color:rgba(0,0,0,0.6);
+  border: 1px solid rgba(0,0,0,0.6);
+}
+
+.alert-failed {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert {
+  display: none;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+}
+[class^="ti-"], [class*=" ti-"] {
+  font-family: 'themify';
+  speak: none;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.backoffice .contentGroup {
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+.backoffice .contentGroup > div.libelle {
+  color: #66615B;
+  letter-spacing: 1px;
+}
+
+.backoffice .contentGroup > div.libelle::after{
+  content: ' · ';
+}
+
+.backoffice .contentGroup > div.libelle + div {
+  font-size: 13px;
+  color: #66615B;
+  letter-spacing: 1px;
+}
+
+.backoffice .contentGroup > div > span {
+  display: block;
+}
+
+.backoffice form .contentGroup label {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.backoffice form .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.backoffice form .form-control:active, form .form-control:focus {
+  border: 1px solid #A52A2A;
+}
+
+.backoffice form input[name='namePage'] {
+  border: none;
+}
+
+.backoffice form .form-pin{
+  float: left;
+  background: #eeeeee;
+  display: inline;
+  padding: 5px;
+  width: auto;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0;
+}
+
+.backoffice form .form-pin + .form-control {
+  width: calc(100% - 35px);
+  border-radius: 0px 5px 5px 0;
+}
+
+.backoffice .validateForm {
+  margin: 15px 0;
+}
